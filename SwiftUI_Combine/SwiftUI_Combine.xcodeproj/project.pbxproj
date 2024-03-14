@@ -12,15 +12,35 @@
 		5A57878B2BA25D1000723396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A57878A2BA25D1000723396 /* Assets.xcassets */; };
 		5A57878E2BA25D1000723396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A57878D2BA25D1000723396 /* Preview Assets.xcassets */; };
 		5A5787952BA2699F00723396 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787942BA2699F00723396 /* News.swift */; };
+		5A5787A02BA2C0ED00723396 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A57879F2BA2C0ED00723396 /* LoginView.swift */; };
+		5A5787A22BA2C43B00723396 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787A12BA2C43B00723396 /* LoginViewModel.swift */; };
+		5A5787A52BA2C71F00723396 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787A42BA2C71F00723396 /* AuthProvider.swift */; };
+		5A5787A72BA2C8B200723396 /* AuthProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787A62BA2C8B200723396 /* AuthProviderProtocol.swift */; };
+		5A5787A92BA2C8DD00723396 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787A82BA2C8DD00723396 /* User.swift */; };
+		5A5787AB2BA2C90100723396 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787AA2BA2C90100723396 /* Session.swift */; };
+		5A5787B12BA2CA9D00723396 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787B02BA2CA9D00723396 /* HomeView.swift */; };
+		5A5787B32BA2CAC700723396 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5787B22BA2CAC700723396 /* HomeViewModel.swift */; };
+		C00CDEFB82B5048AFDABE22F /* Pods_SwiftUI_Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93CE6A7FE8D5BBC67D7EBBB /* Pods_SwiftUI_Combine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A82F15A363E0360C08A55D7 /* Pods-SwiftUI_Combine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Combine.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Combine/Pods-SwiftUI_Combine.debug.xcconfig"; sourceTree = "<group>"; };
+		3FEB525118D80F8E30EF24E7 /* Pods-SwiftUI_Combine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Combine.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Combine/Pods-SwiftUI_Combine.release.xcconfig"; sourceTree = "<group>"; };
 		5A5787832BA25D0F00723396 /* SwiftUI_Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Combine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5787862BA25D0F00723396 /* SwiftUI_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CombineApp.swift; sourceTree = "<group>"; };
 		5A5787882BA25D0F00723396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A57878A2BA25D1000723396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A57878D2BA25D1000723396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A5787942BA2699F00723396 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		5A57879F2BA2C0ED00723396 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5A5787A12BA2C43B00723396 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5A5787A42BA2C71F00723396 /* AuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		5A5787A62BA2C8B200723396 /* AuthProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthProviderProtocol.swift; sourceTree = "<group>"; };
+		5A5787A82BA2C8DD00723396 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5A5787AA2BA2C90100723396 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		5A5787B02BA2CA9D00723396 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A5787B22BA2CAC700723396 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D93CE6A7FE8D5BBC67D7EBBB /* Pods_SwiftUI_Combine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Combine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00CDEFB82B5048AFDABE22F /* Pods_SwiftUI_Combine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +60,8 @@
 			children = (
 				5A5787852BA25D0F00723396 /* SwiftUI_Combine */,
 				5A5787842BA25D0F00723396 /* Products */,
+				7A998483D2D8071D81BD9D1E /* Pods */,
+				A30F281F08EB5C99779DE880 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +76,11 @@
 		5A5787852BA25D0F00723396 /* SwiftUI_Combine */ = {
 			isa = PBXGroup;
 			children = (
+				5A5787962BA2AF4900723396 /* CombineTest */,
 				5A5787862BA25D0F00723396 /* SwiftUI_CombineApp.swift */,
+				5A5787AD2BA2CA1300723396 /* Presentation */,
+				5A5787A32BA2C70800723396 /* Model */,
 				5A5787882BA25D0F00723396 /* ContentView.swift */,
-				5A5787942BA2699F00723396 /* News.swift */,
 				5A57878A2BA25D1000723396 /* Assets.xcassets */,
 				5A57878C2BA25D1000723396 /* Preview Content */,
 			);
@@ -70,6 +95,69 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5A5787962BA2AF4900723396 /* CombineTest */ = {
+			isa = PBXGroup;
+			children = (
+				5A5787942BA2699F00723396 /* News.swift */,
+			);
+			path = CombineTest;
+			sourceTree = "<group>";
+		};
+		5A5787A32BA2C70800723396 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A5787A42BA2C71F00723396 /* AuthProvider.swift */,
+				5A5787A62BA2C8B200723396 /* AuthProviderProtocol.swift */,
+				5A5787A82BA2C8DD00723396 /* User.swift */,
+				5A5787AA2BA2C90100723396 /* Session.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A5787AD2BA2CA1300723396 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5A5787AF2BA2CA8F00723396 /* Home */,
+				5A5787AE2BA2CA2100723396 /* Login */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5A5787AE2BA2CA2100723396 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5A57879F2BA2C0ED00723396 /* LoginView.swift */,
+				5A5787A12BA2C43B00723396 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5A5787AF2BA2CA8F00723396 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5A5787B02BA2CA9D00723396 /* HomeView.swift */,
+				5A5787B22BA2CAC700723396 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A998483D2D8071D81BD9D1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A82F15A363E0360C08A55D7 /* Pods-SwiftUI_Combine.debug.xcconfig */,
+				3FEB525118D80F8E30EF24E7 /* Pods-SwiftUI_Combine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A30F281F08EB5C99779DE880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93CE6A7FE8D5BBC67D7EBBB /* Pods_SwiftUI_Combine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A5787912BA25D1000723396 /* Build configuration list for PBXNativeTarget "SwiftUI_Combine" */;
 			buildPhases = (
+				62DD5D0DB4F8F1378A5214BD /* [CP] Check Pods Manifest.lock */,
 				5A57877F2BA25D0F00723396 /* Sources */,
 				5A5787802BA25D0F00723396 /* Frameworks */,
 				5A5787812BA25D0F00723396 /* Resources */,
+				2C3FC6CA35478ADE3DEA131F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,14 +225,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C3FC6CA35478ADE3DEA131F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Combine/Pods-SwiftUI_Combine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Combine/Pods-SwiftUI_Combine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Combine/Pods-SwiftUI_Combine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62DD5D0DB4F8F1378A5214BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_Combine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A57877F2BA25D0F00723396 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5787A72BA2C8B200723396 /* AuthProviderProtocol.swift in Sources */,
+				5A5787B32BA2CAC700723396 /* HomeViewModel.swift in Sources */,
 				5A5787952BA2699F00723396 /* News.swift in Sources */,
+				5A5787A02BA2C0ED00723396 /* LoginView.swift in Sources */,
+				5A5787B12BA2CA9D00723396 /* HomeView.swift in Sources */,
+				5A5787A22BA2C43B00723396 /* LoginViewModel.swift in Sources */,
 				5A5787892BA25D0F00723396 /* ContentView.swift in Sources */,
+				5A5787A52BA2C71F00723396 /* AuthProvider.swift in Sources */,
+				5A5787AB2BA2C90100723396 /* Session.swift in Sources */,
 				5A5787872BA25D0F00723396 /* SwiftUI_CombineApp.swift in Sources */,
+				5A5787A92BA2C8DD00723396 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +326,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -249,7 +389,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -270,12 +410,14 @@
 		};
 		5A5787922BA25D1000723396 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A82F15A363E0360C08A55D7 /* Pods-SwiftUI_Combine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Combine/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD3T6BC63N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -283,6 +425,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,12 +441,14 @@
 		};
 		5A5787932BA25D1000723396 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEB525118D80F8E30EF24E7 /* Pods-SwiftUI_Combine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Combine/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD3T6BC63N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,6 +456,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

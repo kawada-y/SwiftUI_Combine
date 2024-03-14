@@ -8,29 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var session: Session = Session()
+
     var body: some View {
         VStack {
-            Text("Hello, combine")
-            Button {
-                do {
-                    let notificationPublisher = NotificationCenter.Publisher(center: .default,
-                                                                             name: .News,
-                                                                             object: nil)
-                    
-                    let _ = NewsSubscriber(notificationPublisher: notificationPublisher)
-                    
-                    notificationPublisher
-                        .center
-                        .post(name: .News, object: News(info: "you got an item of news!"))
-                }
-            } label: {
-                Text("push")
+            if self.session.isLogin {
+                HomeView()
+                    .environmentObject(self.session)
+            } else {
+                LoginView()
+                    .environmentObject(self.session)
             }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(Session())
 }
